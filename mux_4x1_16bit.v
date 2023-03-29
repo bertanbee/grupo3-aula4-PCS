@@ -1,3 +1,5 @@
+`include "mux_4x1_1bit.v"
+
 module mux_4x1_16bit (
     input [15:0] I0, I1, I2, I3,
     input A0, A1,
